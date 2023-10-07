@@ -77,6 +77,7 @@ table{
 .cart-info{
   display: flex;
   flex flex-wrap:wrap ;
+}
 
   
 th{
@@ -85,6 +86,7 @@ th{
   colour : rgb(237, 25, 25);
   background: :black;
   font-weight: small;
+}
 
   
 td{
