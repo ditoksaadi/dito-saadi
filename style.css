@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.jumbotron {
+  font-size: medium;
+  margin-right: 10%;
+  color: rgb(19, 18, 18);
+}
+.footer {
+  background: #000;
+  padding: 30px 0px;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: rgb(167, 126, 185);
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: rgb(236, 60, 16);
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #afa8a8;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+  .footer .row a i {
+    margin: 0% 3%;
+  }
+}
+/*----cart items --------*/
+*cart-page{
+  margin: 80px auto;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info{
+  display: flex;
+  flex flex-wrap:wrap ;
+
+  
+th{
+  text-align: left;
+  padding: 5px;
+  colour : rgb(237, 25, 25);
+  background: :black;
+  font-weight: small;
+
+  
+td{
+  padding: 10px 5px;
+}
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a{
+  color: #f30303;
+  font-size: 12px;
+}
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+
+}
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table{
+  border-top:3px solid rgb(248, 6, 6);
+  width: 100%;
+  max-width: 400px;
+} 
+td:last-child{
+  text-align: right;
+}
+th :last-child{
+  text-align: right;
+}
